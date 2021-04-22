@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+	<head>
+		{% comment %} (page title) | (site title) {% endcomment %}
+		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
+
+		<link rel = "stylesheet" type = "text/css" href = "/assets/css/style.css" />
+	</head>
+
+	<body>
+
+		<h1 class = "title" id = "top">{{ site.title }}</h1>
+
+		<p class = "subtitle">{{ site.description }}</p>
+
+		{% include header.html %}
+
+		<section>
+		{{ content }}
+
+		<p><a href = "#top">Back to top</a>.</p>
+
+		<p style = "text-align: center;">
+			<small>This website is maintained by Philip Pavlick.
+			<br />
+			All content on this website is available in the
+			public domain unless otherwise specified.
+			<br />
+			Hosted by GitHub Pages</small>
+		</p>
+		</section>
+
+	</body>
+</html>
