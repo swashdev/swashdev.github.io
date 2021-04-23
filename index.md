@@ -59,5 +59,5 @@ because this isn't really my thing, but nevertheless I did try to make
 something that people could easily expand on, so go bananas.
 
 [GitHub]: https://github.com/swashdev/
-[SourceHut]: https://sr.ht/~swashberry/
+[SourceHut]: https://git.sr.ht/~swashberry/
 [Jekyll theme]: https://github.com/swashdev/untitled-pages-theme/
