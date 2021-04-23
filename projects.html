@@ -1,0 +1,37 @@
+---
+layout: default
+title: Portfolio
+permalink: /projects/
+---
+
+<h1>My Latest Projects</h1>
+
+{% for post in site.posts %}
+{% assign even = forloop.index0 | modulo: 2 %}
+<p>
+	<strong><a href = "{{ post.url }}">{{ post.title }}</a></strong>
+	{% if post.tags contains "wip" %}
+	- <span style = "color: red;">Work in Progress</span>
+	{% endif %}
+        - Last updated on {{ post.date | date: "%Y-%m-%d" }}
+</p>
+
+{% if post.image %}
+
+<a href = "{{ post.url }}"><img src = "{{ post.image }}" class = "float-{% if even == 0 %}left{% else %}right{% endif %}" /></a>
+
+{% endif %}
+
+{{ post.excerpt }}
+
+{% if post.systems %}
+<p>
+	Systems: {{ post.systems | join: " &bullet; " }}
+</p>
+{% endif %}
+
+<p>
+	Tags: {{ post.tags | join: " &bullet; " | remove: " &bullet; wip" }}
+</p>
+
+{% endfor %}

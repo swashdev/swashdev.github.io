@@ -97,6 +97,22 @@ section
 
 /* maybe use the margins for some sidebars in the future */
 
+/* footnotes appear at the bottom of the page and should be clearly marked
+ * to separate them from the main body.
+ */
+.footnotes
+{
+	display: block;
+	border-style: solid none none;
+	border-color: gray;
+	border-width: 1px;
+	padding-top: 1em;
+}
+.footnotes::before
+{
+	content: "Footnotes:";
+}
+
 /* large images will resize to fit the body; smaller images will be centered */
 img
 {
