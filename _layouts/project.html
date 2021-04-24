@@ -4,42 +4,8 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page.image %}
-<img src = "{{ page.image }}" class = "float-left" />
+{% if page.preview %}
+<img src = "{{ page.preview }}" />
 {% endif %}
-
-<p>
-	Last updated: {{ page.date | date: "%Y-%m-%d" }}
-	<br />
-	Latest version: {{ page.version | default: "Prerelease" }}
-	<br />
-        License:
-        {% if page.license_link %}<a href = "{{ page.license_link }}">{% endif %}{{ page.license | default: "Proprietary" }}{% if page.license_link %}</a>
-        {% endif %}
-	{% if page.systems %}
-	<br />
-	Systems: {{ page.systems | join: ", " }}
-	{% endif %}
-	{% if page.downloads %}
-	<br />
-	<a href = "{{ page.downloads }}">Downloads</a>
-	{% endif %}
-	{% if page.website %}
-	<br />
-	<a href = "{{ page.website }}">Website</a>
-	{% endif %}
-	{% if page.github %}
-	<br />
-	<a href = "{{ page.github }}">Fork it on GitHub!</a>
-	{% endif %}
-	{% if page.repo %} {% comment %} For non-GitHub repositories {% endcomment %}
-	<br />
-	<a href = "{{ page.repo }}">Check out the source code!</a>
-	{% endif %}
-	{% if page.playnow %}
-	<br />
-	<a href = "{{ page.playnow }}">Play Online Now, Guys!</a>
-	{% endif %}
-</p>
 
 {{ content }}

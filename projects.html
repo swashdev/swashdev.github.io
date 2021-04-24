@@ -16,9 +16,9 @@ permalink: /projects/
         - Last updated on {{ post.date | date: "%Y-%m-%d" }}
 </p>
 
-{% if post.image %}
+{% if post.thumbnail %}
 
-<a href = "{{ post.url }}"><img src = "{{ post.image }}" class = "float-{% if even == 0 %}left{% else %}right{% endif %}" /></a>
+<a href = "{{ post.url }}"><img src = "{{ post.thumbnail }}" class = "float-{% if even == 0 %}left{% else %}right{% endif %}" /></a>
 
 {% endif %}
 
@@ -31,7 +31,7 @@ permalink: /projects/
 {% endif %}
 
 <p>
-	Tags: {{ post.tags | join: " &bullet; " | remove: " &bullet; wip" }}
+	Tags: {{ post.tags | join: " &bullet; " | remove: " &bullet; wip" | replace: "_", " " }}
 </p>
 
 {% endfor %}

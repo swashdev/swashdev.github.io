@@ -91,11 +91,43 @@ header a.current, header a:hover
 /* this section formats the actual content of pages */
 section
 {
-	width: 60%;
+	width: 50%;
 	margin: 20px auto;
 }
 
 /* maybe use the margins for some sidebars in the future */
+
+/* sidebars float to the left of the page content */
+.sidebar
+{
+	width: 24%;
+	float: left;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 2em;
+	margin-top: 2em;
+	background-color: gray;
+}
+
+/* project frontmatter lists display a selection of a project's frontmatter */
+ul.project-frontmatter
+{
+	list-style-type: none;
+	margin: 0.5em;
+	padding: 0;
+}
+ul.project-frontmatter li
+{
+	background-color: white;
+	margin: 5px 0;
+}
+ul.project-frontmatter ul li
+{
+	list-style-type: disc;
+	background-color: inherit;
+	margin: 0;
+}
+
 
 /* footnotes appear at the bottom of the page and should be clearly marked
  * to separate them from the main body.

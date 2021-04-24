@@ -16,6 +16,11 @@
 
 		{% include header.html %}
 
+		{% comment %} Include the sidebar if the page is a post in the Projects directory {% endcomment %}
+		{% if page.url contains "/projects/" and page.path contains "_posts" %}
+		{% include sidebar.html %}
+		{% endif %}
+
 		<section>
 		{{ content }}
 

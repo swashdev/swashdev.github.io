@@ -1,0 +1,30 @@
+<div class = "sidebar">
+	<ul class = "project-frontmatter">
+		<li>Last updated: {{ page.date | date: "%Y-%m-%d" }}</li>
+		<li>License: {% if page.license_link %}<a href = "{{ page.license_link }}">{% endif %}{{ page.license | default: "Proprietary" }}{% if page.license_link %}</a>{% endif %}</li>
+		{% if page.website %}
+		<li><a href = "{{ page.website }}">Website</a></li>
+		{% endif %}
+		{% if page.downloads %}
+		<li><a href = "{{ page.downloads }}">Downloads</a></li>
+		{% endif %}
+		{% if page.github %}
+		<li><a href = "https://github.com/swashdev/{{ page.github }}">Source Code</a></li>
+		{% else if page.repo %}
+		<li><a href = "{{ page.repo }}">Source Code</a></li>
+		{% endif %}
+		{% if page.playnow %}
+		<li><a href = "{{ page.playnow }}">Play Online Now, Guys!</a></li>
+		{% endif %}
+		{% if page.systems %}
+		{% assign systems = page.systems | split: ", " %}
+		{% if systems.size == 1 %}
+		<li>System: {{ systems.first }}</li>
+		{% else %}
+		<li>Systems:
+		    <ul><li>{{ systems | join: "</li><li>" }}</li></ul>
+		</li>
+		{% endif %}
+		{% endif %}
+	</ul>
+</div>
