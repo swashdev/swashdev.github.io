@@ -16,6 +16,9 @@
 		{% if page.playnow %}
 		<li><a href = "{{ page.playnow }}">Play Online Now, Guys!</a></li>
 		{% endif %}
+                {% if page.version %}
+                <li>Version {{ page.version }}</li>
+                {% endif %}
 		{% if page.systems %}
 		{% assign systems = page.systems | split: ", " %}
 		{% if systems.size == 1 %}
