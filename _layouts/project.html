@@ -8,4 +8,37 @@ layout: default
 <img src = "{{ page.preview }}" />
 {% endif %}
 
+<p class = "centered">
+	Last updated {{ page.date | date: "%Y-%m-%d" }}
+	{% if page.version %} - version {{ page.version }}{% endif %}
+	{% assign meta_array = "" | split: "," %}
+	{% if page.website %}
+		{% assign link_str = '<a href = "' | append: page.website %}
+		{% assign link_str = link_str | append: '">Website</a>' %}
+		{% assign meta_array = meta_array | push: link_str %}
+	{% endif %}
+	{% if page.downloads %}
+		{% assign link_str = '<a href = "' | append: page.downloads %}
+		{% assign link_str = link_str | append: '">Downloads</a>' %}
+		{% assign meta_array = meta_array | push: link_str %}
+	{% endif %}
+	{% if page.repo %}
+		{% assign link_str = '<a href = "' | append: page.repo %}
+		{% assign link_str = link_str | append: '">Source Code</a>' %}
+		{% assign meta_array = meta_array | push: link_str %}
+	{% elsif page.github %}
+		{% assign link_str = '<a href = "https://github.com/swashdev/' | append: page.github %}
+		{% assign link_str = link_str | append: '">Source Code</a>' %}
+		{% assign meta_array = meta_array | push: link_str %}
+	{% endif %}
+	{% if meta_array.size > 0 %}
+		<br />
+		{{ meta_array | join: " - " }}
+	{% endif %}
+	{% if page.playnow %}
+		<br />
+		<a href = "{{ page.playnow }}">Play Online Now, Guys!</a>
+	{% endif %}
+</p>
+
 {{ content }}
