@@ -4,6 +4,9 @@ title: The "Free Yourself" License
 permalink: /fyl/
 ---
 
+The "Free Yourself" License
+===========================
+
 The "Free Yourself" License is a custom software license inspired by FreeBSD
 developer [Poul-Henning Kamp][phk]'s "Beer-Ware License."  It is an
 essentially [public-domain-equivalent license][pde license] granting full
