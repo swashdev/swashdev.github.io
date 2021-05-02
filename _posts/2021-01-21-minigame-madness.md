@@ -26,10 +26,9 @@ to extend.
 [godot]: https://godotengine.org/
 
 * [Design](#design)
-  * [Minigames or Microgames?](#minigames-or-microgames)
 * [Challenges](#challenges)
-  * [Public Domain Status](#public-domain-status)
 * [What I've Learned](#what-ive-learned)
+* [Public Domain Status](#public-domain-status)
 
 ## Design
 
@@ -45,7 +44,7 @@ do and get it done.
 
 Also like in the Four Second Series, Minigame Madness uses only the arrow keys
 and space bar[^1], meaning that the various microgames play relatively
-consistently and and require little experimentation in order to play.  This is
+consistently and require little experimentation in order to play.  This is
 done firstly to simplify the design of the various microgames but also so that
 the main challenge factor is the strict time limit.
 
@@ -62,6 +61,8 @@ microgames contributed by various Newgrounds users, and unfortunately a lot of
 them had the same basic design, just with different graphics.  I wanted every
 microgame in Minigame Madness to play differently from the rest, so that the
 player felt like they were getting a new challenge with each game.
+
+{% comment %} This section is being deferred to a later draft.
 
 ### Minigames or Microgames?
 
@@ -92,6 +93,8 @@ very silly game that needs a very silly name.
 For the purposes of this portfolio, however, I'll use the term "microgame" to
 describe the minigames in Minigame Madness, because it's more accurate.
 
+{% endcomment %}
+
 ## Challenges
 
 The most obvious challenge in the design of Minigame Madness was coming up
@@ -121,46 +124,6 @@ working in my favor, however, because the slapdash art style worked with the
 frantic pacing to make the game feel more rushed.
 
 ![The player has been tasked with quickly sawing a log in half during a game of Minigame Madness](/images/minigame-madness/screenshot-1.png)
-
-### Public Domain Status
-
-I made the decision very early on to release Minigame Madness into the public
-domain.  There were [some limitations on my ability to do
-this][mostly public domain], however.  For one thing the game engine I used is
-not in the public domain, and for another any third-party assets I used had to
-be very permissively licensed, ideally also public domain.
-
-[mostly public domain]: https://github.com/swashdev/minigame-madness/blob/52e6201630b08dcf91c5b389d2b4c36dc4df13dc/LICENSE
-
-Finding suitable third-party assets that are in the public domain turns out to
-be surprisingly difficult.  I was able to find some useful fonts which are
-public domain, which is good because my handwriting is terrible and I didn't
-have time to try to build my own font from scratch.
-
-Music was much harder to get a hold of.  I eventually found a musician who
-goes by [Loyalty Freak Music][Loyalty Freak] who mostly works on video game
-projects and publishes exclusively in the public domain, but none of their
-work seemed to fit for the core gameplay loop.
-
-[Loyalty Freak]: https://loyaltyfreakmusic.com/
-
-Eventually, for the main music, I compromised and settled on a song called
-[Skippitybop][Skippitybop] by Spadezer.  Even this song wasn't ideal, since
-it was released under a [Creative Commons-Attribution License][CC-BY], but
-since the game already had to include _some_ licensing information in order to
-see any kind of release I decided the compromise was just going to have to
-happen.  Besides that, the song is just _perfect_ for the anarchic and frantic
-style of the game, and it's frankly criminal that it hasn't gone viral yet.
-
-[Skippitybop]: https://www.newgrounds.com/audio/listen/944805
-[CC-BY]: https://creativecommons.org/licenses/by/3.0/
-
-The practical effect of this is that the original Minigame Madness source code
-files are all in the public domain, but compiled binaries are still subject to
-copyright.  There's really nothing I could have done about this, due to the
-licensing terms of the engine I was using, but I stuck to my guns on this one
-because as long as Minigame Madness is open-sourced it matters that _my_
-original work be available unencumbered.
 
 ## What I've Learned
 
@@ -249,3 +212,43 @@ of it as long as the core appeal still works.  That's not to say I didn't
 devote myself to making the game well, just that I had to use my resources
 optimally and sacrifice some elements of the project to make others as good as
 they could be.
+
+## Public Domain Status
+
+I made the decision very early on to release Minigame Madness into the public
+domain.  There were [some limitations on my ability to do
+this][mostly public domain], however.  For one thing the game engine I used is
+not in the public domain, and for another any third-party assets I used had to
+be very permissively licensed, ideally also public domain.
+
+[mostly public domain]: https://github.com/swashdev/minigame-madness/blob/52e6201630b08dcf91c5b389d2b4c36dc4df13dc/LICENSE
+
+Finding suitable third-party assets that are in the public domain turns out to
+be surprisingly difficult.  I was able to find some useful fonts which are
+public domain, which is good because my handwriting is terrible and I didn't
+have time to try to build my own font from scratch.
+
+Music was much harder to get a hold of.  I eventually found a musician who
+goes by [Loyalty Freak Music][Loyalty Freak] who mostly works on video game
+projects and publishes exclusively in the public domain, but none of their
+work seemed to fit for the core gameplay loop.
+
+[Loyalty Freak]: https://loyaltyfreakmusic.com/
+
+Eventually, for the main music, I compromised and settled on a song called
+[Skippitybop][Skippitybop] by Spadezer.  Even this song wasn't ideal, since
+it was released under a [Creative Commons-Attribution License][CC-BY], but
+since the game already had to include _some_ licensing information in order to
+see any kind of release I decided the compromise was just going to have to
+happen.  Besides that, the song is just _perfect_ for the anarchic and frantic
+style of the game, and it's frankly criminal that it hasn't gone viral yet.
+
+[Skippitybop]: https://www.newgrounds.com/audio/listen/944805
+[CC-BY]: https://creativecommons.org/licenses/by/3.0/
+
+The practical effect of this is that the original Minigame Madness source code
+files are all in the public domain, but compiled binaries are still subject to
+copyright.  There's really nothing I could have done about this, due to the
+licensing terms of the engine I was using, but I stuck to my guns on this one
+because as long as Minigame Madness is open-sourced it matters that _my_
+original work be available unencumbered.
