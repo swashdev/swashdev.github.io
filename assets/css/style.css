@@ -54,8 +54,10 @@ h1.title
 .subtitle
 {
 	text-align: center;
+	vertical-align: top;
 	font-style: italic;
 	margin: 0 auto;
+	min-height: 2.5em;
 }
 
 /* the page header */
