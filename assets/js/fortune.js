@@ -15,10 +15,10 @@ function populateFortune( xml )
 	var i = Math.floor(Math.random() * cookieList.length);
 	cookie = cookieList.item(i);
 
-	txt = cookie.getElementsByTagName( "fortune" ).item(0).textContent;
+	txt = "<p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
 
 	if (cookie.getElementsByTagName( "cite" ).length > 0) {
-		txt = txt + "<br /> — " + cookie.getElementsByTagName( "cite" ).item(0).textContent;
+		txt = txt + "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
 	}
 
 	document.getElementById("fortune").innerHTML = txt;

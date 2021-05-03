@@ -14,14 +14,21 @@
 
 		<h1 class = "title" id = "top">{{ site.title }}</h1>
 
-		<p class = "subtitle" id = "fortune">{{ site.description }}</p>
-
                 {% include header.html %}
 
 		<section>
 		{{ content }}
 
 		<p><a href = "#top">Back to top</a>.</p>
+
+		{% comment %} This is the element which will contain a random
+		fortune courtesy of fortune.js.  What's in there now is a
+		placeholder from my old website. {% endcomment %}
+		<div id = "fortune">
+                        <p>
+			Nothing's worth doing that's not worth doing right.
+                        </p>
+		</div>
 
 		<p style = "text-align: center;">
 			<small>This website is maintained by Philip Pavlick.
