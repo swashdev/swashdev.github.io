@@ -30,5 +30,5 @@ xmlhttp.onreadystatechange = function() {
 			populateFortune(this);
 		}
 	};
-xmlhttp.open("GET", "/assets/xml/fortunes.xml", true);
+xmlhttp.open("GET", "/xml/fortunes.xml", true);
 xmlhttp.send();
