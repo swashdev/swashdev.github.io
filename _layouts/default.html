@@ -6,13 +6,15 @@
 		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
 
 		<link rel = "stylesheet" type = "text/css" href = "/assets/css/style.css" />
+
+		<script type = "text/javascript" src = "/assets/js/fortune.js"></script>
 	</head>
 
 	<body>
 
 		<h1 class = "title" id = "top">{{ site.title }}</h1>
 
-		<p class = "subtitle">{{ site.description }}</p>
+		<p class = "subtitle" id = "fortune">{{ site.description }}</p>
 
                 {% include header.html %}
 

@@ -1,0 +1,211 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!--
+This XML document constitutes free and unencumbered software released into the
+public domain.  Anyone is free to copy, modify, publish, use, compile, sell,
+or distribute this software, for any purpose, commercial or non-commercial,
+and by any means.  This software is presented "as-is" and with no warantees or
+guarantees.
+For more information, see <https://unlicense.org>
+-->
+
+<jar>
+
+	<!-- Original quotes from me -->
+
+	<cookie>
+		<fortune>
+			Nothing's worth doing that's not worth doing right.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Prove to yourself that you can.
+		</fortune>
+	</cookie>
+
+	<!-- General pearls of folk wisdom -->
+
+	<!-- Biblical quotations -->
+
+	<cookie>
+		<fortune>
+			And as you wish that others would do to you, so do to
+			them.
+		</fortune>
+		<cite>
+			Luke 6:31 ESV
+		</cite>
+	</cookie>
+
+	<!-- Quotations -->
+
+	<cookie>
+		<fortune>
+			Live Free or Die.
+		</fortune>
+		<cite>
+			State Motto of New Hampshire
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			&apos;Tis purpose God attends, not prayer.
+		</fortune>
+		<cite>
+			Gilbert of Glockenspur, &quot;Dragonheart&quot;
+			(Novelization) by Charles Edward Pogue
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+		</fortune>
+		<cite>
+			The Old Code, &quot;Dragonheart&quot; by Charles
+			Edward Pogue, directed by Rob Cohen.
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Stand up straight with your shoulders back.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 1
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Treat yourself like someone you are responsible for
+			helping.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 2
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Make friends with people who want the best for you.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 3
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Compare yourself with who you were yesterday, not with
+			who someone else is today.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 4
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Do not let your children do anything that makes you
+			dislike them.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 5
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Set your house in perfect order before you criticize
+			the world.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 6
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Pursue what is meaningful (not what is expedient).
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 7
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Tell the truth — or, at least, don't lie.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 8
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Assume that the person you are listening to might know
+			something you don't.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 9
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Be precise in your speech.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 10
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Do not bother children when they are skate-boarding.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 11
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Pet a cat when you encounter one on the street.
+		</fortune>
+		<cite>
+			Jordan B. Peterson, &quot;12 Rules for Life&quot; —
+			Rule 12
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			I don't think I'd have been in such a hurry to reach
+			adulthood if I'd known the whole thing was going to be
+			ad-libbed.
+		</fortune>
+		<cite>
+			Calvin's Dad, from &quot;Calvin and Hobbes&quot; by
+			Bill Waterson
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Verbing weirds language.
+		</fortune>
+		<cite>
+			Calvin, from &quot;Calvin and Hobbes&quot; by Bill
+			Waterson
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			I'd hate to think that all my current experiences will
+			someday become stories with no point. 
+		</fortune>
+		<cite>
+			Calvin, from &quot;Calvin and Hobbes&quot; by Bill
+			Waterson
+		</cite>
+	</cookie>
+</jar>
