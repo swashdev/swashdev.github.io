@@ -162,7 +162,7 @@ img
 
 .post-preview
 {
-	float: left;
+	width: 100%;
 }
 
 /* for portfolio pages, formatting for screenshots/preview images which can

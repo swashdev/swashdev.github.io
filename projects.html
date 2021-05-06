@@ -8,13 +8,13 @@ permalink: /projects/
 
 {% for post in site.posts %}
 {% assign even = forloop.index0 | modulo: 2 %}
-<p>
+<div class = "post-preview">
 	<strong><a href = "{{ post.url }}">{{ post.title }}</a></strong>
 	{% if post.tags contains "wip" %}
 	- <span style = "color: red;">Work in Progress</span>
 	{% endif %}
         - Last updated on {{ post.date | date: "%Y-%m-%d" }}
-</p>
+</div>
 
 {% if post.thumbnail %}
 
