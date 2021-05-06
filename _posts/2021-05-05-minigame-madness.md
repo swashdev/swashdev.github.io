@@ -5,7 +5,7 @@ permalink: /projects/minigame-madness/
 spoof_url: /projects/
 license: Mostly Public Domain
 license_link: https://github.com/swashdev/minigame-madness/blob/master/LICENSE
-version: 21.3.4-alpha
+version: 21.18.3-alpha
 github: minigame-madness/
 systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game wip
@@ -13,7 +13,7 @@ thumbnail: /images/thumbnails/minigame-madness.png
 preview: /images/minigame-madness/screenshot.png
 ---
 
-Minigame Madness is a collection of ~~20~~ 9 fun microgames which hearkens
+Minigame Madness is a collection of ~~20~~ 10 fun microgames which hearkens
 back to the good old days, when Flash games ruled the Internet and anarchic
 fun was an acceptable passtime.  Do you have the reflexes?  The skill?  The
 determination?  There's only one way to find out!
