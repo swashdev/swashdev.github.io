@@ -23,6 +23,17 @@ For more information, see <https://unlicense.org>
 			Prove to yourself that you can.
 		</fortune>
 	</cookie>
+	<cookie>
+		<fortune>
+			Be proficient with the tools that you use.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Only speak authoritatively on subjects in which
+			you are personally knowledgeable.
+		</fortune>
+	</cookie>
 
 	<!-- General pearls of folk wisdom -->
 
@@ -185,32 +196,43 @@ For more information, see <https://unlicense.org>
 	</cookie>
 	<cookie>
 		<fortune>
-			I don't think I'd have been in such a hurry to reach
-			adulthood if I'd known the whole thing was going to be
-			ad-libbed.
+			At the end of the day, you are you, and you have you
+			to take care of.
 		</fortune>
 		<cite>
-			Calvin's Dad, from &lt;cite&gt;Calvin and
-			Hobbes&lt;/cite&gt; by Bill Waterson
+			Markiplier
 		</cite>
 	</cookie>
 	<cookie>
 		<fortune>
-			Verbing weirds language.
+			You&apos;ve gotta believe in yourself.  You&apos;ve
+			gotta be good to yourself.  You&apos;ve gotta be good
+			to the person that &lt;em&gt;you&lt;/em&gt; are,
+			&apos;cause you&apos;re all you&apos;ve got.
 		</fortune>
 		<cite>
-			Calvin, from &lt;cite&gt;Calvin and Hobbes&lt;/cite&gt;
-			by Bill Waterson
+			Markiplier
 		</cite>
 	</cookie>
 	<cookie>
 		<fortune>
-			I'd hate to think that all my current experiences will
-			someday become stories with no point. 
+			These are things I find enchanting and miraculous.
+			I don&apos;t have to be at the Grand Canyon to
+			appreciate the way the world works, I can see that in
+			reflections of light in my bathroom.
 		</fortune>
 		<cite>
-			Calvin, from &lt;cite&gt;Calvin and Hobbes&lt;/cite&gt;
-			by Bill Waterson
+			John D. Carmack
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			I&apos;m going to turn on every damn light in protest
+			of Earth Hour.  Lighting the darkness is fundamental
+			to humanity&apos;s climb.
+		</fortune>
+		<cite>
+			John D. Carmack
 		</cite>
 	</cookie>
 </jar>
