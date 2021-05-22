@@ -11,6 +11,7 @@ systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game wip
 thumbnail: /images/thumbnails/minigame-madness.png
 preview: /images/minigame-madness/screenshot.png
+playnow: https://pavlick.net/minigame-madness/
 ---
 
 Minigame Madness is a collection of ~~20~~ 10 fun microgames which hearkens
