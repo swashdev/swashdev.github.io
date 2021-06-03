@@ -5,7 +5,7 @@ permalink: /projects/minigame-madness/
 spoof_url: /projects/
 license: Mostly Public Domain
 license_link: https://github.com/swashdev/minigame-madness/blob/master/LICENSE
-version: 21.18.3-alpha
+version: 0.11-alpha
 github: minigame-madness/
 systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game wip
@@ -14,10 +14,10 @@ preview: /images/minigame-madness/screenshot.png
 playnow: https://pavlick.net/minigame-madness/
 ---
 
-Minigame Madness is a collection of ~~20~~ 10 fun microgames which hearkens
+Minigame Madness is a collection of ~~20~~ 11 fun microgames which hearkens
 back to the good old days, when Flash games ruled the Internet and anarchic
 fun was an acceptable passtime.  Do you have the reflexes?  The skill?  The
-determination?  There's only one way to find out!
+intrepidity?  There's only one way to find out!
 
 Minigame Madness is also the first game I made using the
 [Godot Engine][godot], a game engine for 2D or 3D games with an easy-to-use
