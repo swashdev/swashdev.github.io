@@ -183,7 +183,7 @@ For more information, see <https://unlicense.org>
 	</cookie>
 	<cookie>
 		<fortune>
-			Tell the truth &ndash; or, at least, don't lie.
+			Tell the truth &amp;ndash; or, at least, don't lie.
 		</fortune>
 		<cite>
 			Rule 8,
@@ -396,7 +396,7 @@ For more information, see <https://unlicense.org>
 		</fortune>
 		<cite>
 			J.R.R. Tolkein,
-			&lt;cite&gt;The Children of H&uacute;rin&lt;/cite&gt;
+			&lt;cite&gt;The Children of Húrin&lt;/cite&gt;
 		</cite>
 	</cookie>
 	<cookie>
@@ -451,7 +451,7 @@ For more information, see <https://unlicense.org>
 	<cookie>
 		<fortune>
 			True education is a kind of never ending story
-			&ndash; a matter of continual beginnings, of
+			&amp;ndash; a matter of continual beginnings, of
 			habitual fresh starts, of persistent newness.
 		</fortune>
 		<cite>
