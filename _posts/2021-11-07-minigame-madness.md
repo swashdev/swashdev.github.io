@@ -5,7 +5,7 @@ permalink: /projects/minigame-madness/
 spoof_url: /projects/
 license: Mostly Public Domain
 license_link: https://github.com/swashdev/minigame-madness/blob/master/LICENSE
-version: 0.12.3-alpha
+version: 0.12.4-alpha
 github: minigame-madness/
 systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game wip
