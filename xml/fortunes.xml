@@ -34,8 +34,128 @@ For more information, see <https://unlicense.org>
 			you are personally knowledgeable.
 		</fortune>
 	</cookie>
+	<cookie>
+		<fortune>
+			Life would not seem tragic if it was not also
+			beautiful.
+		</fortune>
+	</cookie>
 
 	<!-- General pearls of folk wisdom -->
+
+	<cookie>
+		<fortune>
+			Don&apos;t put off until tomorrow what you can do
+			today.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Don&apos;t look a gift horse in the mouth.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Slow but steady wins the race.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			A journey of a thousand miles begins with a single
+			step.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			A stitch in time saves nine.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			As you sow, so shall you reap.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Strike while the iron is hot.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Practice makes perfect.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			It&apos;s not over &apos;till it&apos;s over.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Time and tide wait for no man.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			The show must go on.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Watch the doughnut and not the hole.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Where there&apos;s a will, there&apos;s a way.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Where one door shuts, another opens.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			An apple a day keeps the doctor away.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Don&apos;t judge a book by its cover.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Make the best of a bad bargain.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			A candle loses nothing by lighting another candle.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Bitter pills may have blessed effects.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			The longest mile is the last mile home.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			A ship in harbor is safe, but that is not what a
+			ship is for.
+		</fortune>
+	</cookie>
+	<cookie>
+		<fortune>
+			Use it or lose it.
+		</fortune>
+	</cookie>
 
 	<!-- Biblical quotations -->
 
@@ -46,6 +166,22 @@ For more information, see <https://unlicense.org>
 		</fortune>
 		<cite>
 			Luke 6:31 ESV
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Sufficient unto the day is the evil thereof.
+		</fortune>
+		<cite>
+			Matthew 6:34 KJV
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			What God has made clean, do not call common.
+		</fortune>
+		<cite>
+			Acts 10:15, 11:9 ESV
 		</cite>
 	</cookie>
 
@@ -252,6 +388,15 @@ For more information, see <https://unlicense.org>
 	<cookie>
 		<fortune>
 			Some things are obvious. Well, why?
+		</fortune>
+		<cite>
+			Jordan Peterson
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Opportunity lurks where responsibility has been
+			abdicated.
 		</fortune>
 		<cite>
 			Jordan Peterson
