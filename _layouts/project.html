@@ -10,7 +10,7 @@ layout: default
 
 <p class = "centered">
 	Last updated {{ page.date | date: "%Y-%m-%d" }}
-	{% if page.version %} - version {{ page.version }}{% endif %}
+	{% if page.version %} &ndash; version {{ page.version }}{% endif %}
 	{% assign meta_array = "" | split: "," %}
 	{% if page.website %}
 		{% assign link_str = '<a href = "' | append: page.website %}
@@ -33,7 +33,7 @@ layout: default
 	{% endif %}
 	{% if meta_array.size > 0 %}
 		<br />
-		{{ meta_array | join: " - " }}
+		{{ meta_array | join: " &ndash; " }}
 	{% endif %}
 	{% if page.playnow %}
 		<br />
