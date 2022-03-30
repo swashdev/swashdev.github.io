@@ -11,9 +11,9 @@ permalink: /projects/
 <div class = "post-preview">
 	<strong><a href = "{{ post.url }}">{{ post.title }}</a></strong>
 	{% if post.tags contains "wip" %}
-	- <span style = "color: red;">Work in Progress</span>
+	&ndash; <span style = "color: red;">Work in Progress</span>
 	{% endif %}
-        - Last updated on {{ post.date | date: "%Y-%m-%d" }}
+    &ndash; Last updated on {{ post.date | date: "%Y-%m-%d" }}
 </div>
 
 {% if post.thumbnail %}
