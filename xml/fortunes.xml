@@ -223,11 +223,22 @@ For more information, see <https://unlicense.org>
 			&apos;Tis purpose God attends, not prayer.
 		</fortune>
 		<cite>
-			Gilbert of Glockenspur,
+			Charles Edward Pogue,
 			&lt;cite&gt;Dragonheart&lt;/cite&gt; (Novelization)
-			&lt;br /&gt;by Charles Edward Pogue
 		</cite>
 	</cookie>
+	<cookie>
+		<fortune>
+			"What now, dragon?" he cried bitterly.  "You abandon us
+			alone in our freedom!  Without you, what do we do?
+			Where do we turn?"&lt;br /&gt;
+			&lt;i&gt;"To the stars, Bowen.  To the
+			stars&amp;hellip;"&lt;/i&gt;
+		</fortune>
+		<cite>
+			Charles Edward Pogue,
+			&lt;cite&gt;Dragonheart&lt;/cite&gt; (Novelization)
+		</cite>
 	<cookie>
 		<fortune>
 			The right can never die,&lt;br /&gt;
@@ -458,6 +469,35 @@ For more information, see <https://unlicense.org>
 	</cookie>
 	<cookie>
 		<fortune>
+			You should be able to do things that you wouldn't do.
+			That's the definition of a genuinely moral person.
+			They &lt;em&gt;could&lt;/em&gt; do it, but they don't.
+		</fortune>
+		<cite>
+			Jordan Peterson, &lt;cite&gt;The Jordan B. Peterson
+			Podcast, No. 36&lt;/cite&gt;
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			I regard free speech as a prerequisite to a civilized
+			society, because freedom of speech means that you can
+			have combat with words. That's what it means. It
+			doesn't mean that people can happily and gently
+			exchange opinions. It means that we can engage in
+			combat with words, in the battleground of ideas. And
+			the reason that that's acceptable, and why it's
+			acceptable that people's feelings get hurt during that
+			combat, is that the combat of ideas is far preferable
+			to actual combat.
+		</fortune>
+		<cite>
+			Jordan Peterson, &lt;cite&gt;Maps of
+			Meaning&lt;/cite&gt;
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
 			At the end of the day, you are you, and you have you
 			to take care of.
 		</fortune>
@@ -680,6 +720,20 @@ For more information, see <https://unlicense.org>
 		</fortune>
 		<cite>
 			J.R.R. Tolkein
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			We choose to go to the Moon in this decade and do the
+			other things, not because they are easy, but because
+			they are hard; because that goal will serve to organize
+			and measure the best of our energies and skills,
+			because that challenge is one that we are willing to
+			accept, one we are unwilling to postpone, and one we
+			intend to win, and the others, too.
+		</fortune>
+		<cite>
+			John F. Kennedy
 		</cite>
 	</cookie>
 </jar>
