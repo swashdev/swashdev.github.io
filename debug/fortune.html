@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!--
+This file constitutes free and unencumbered software released into the
+public domain.  Anyone is free to copy, modify, publish, use, compile, sell,
+or distribute this software, for any purpose, commercial or non-commercial,
+and by any means.  This software is presented "as-is" and with no warranties or
+guarantees.
+For more information, see <https://unlicense.org>
+-->
+
+<html lang="{{ site.lang | default: "en-US" }}">
+
+	<head>
+
+		<link rel = "stylesheet" type = "text/css"
+		 href = "/css/style.css" />
+		<link rel = "stylesheet" type = "text/css"
+		 href = "/css/syntax.css" />
+
+		<script type = "text/javascript">
+			function populateFortunes( xml )
+			{
+				var cookieList, cookie, citation, xmlDoc, txt;
+				xmlDoc = xml.responseXML;
+
+				cookieList = xmlDoc.getElementsByTagName("cookie");
+				if (cookieList.length > 0)
+				{
+					for (let i = 0; i < cookieLiest.length; i++)
+					{
+						cookie = cookieList.item( i );
+						txt = "<hr /><p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
+
+						if (cookie.getElementsByTagName( "cite" ).length > 0)
+						{
+							txt += "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
+						}
+
+						document.getElementById( "fortune" ).innerHTML += txt;
+					} // for (let i = 0; i < cookieLiest.length; i++)
+				} // if (cookieList.length > 0)
+			} // function populateFortunes( xml )
+
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function()
+			{
+				if (this.readyState == 4 && this.status == 200)
+				{
+					populateFortunes( this );
+				}
+			};
+
+			xmlhttp.open( "GET", "/xml/fortunes.xml", true );
+			xmlhttp.send();
+		</script>
+
+	</head>
+
+	<body>
+		<p>
+			This page is used to debug the <pre>fortune</pre>
+			script which prints short messages at the bottom of
+			web pages on this site.  Click <a href="/">here</a> to
+			return to the main site.
+		</p>
+
+		{% comment %}
+			This element will be filled with all of the fortunes
+			in the fortunes file.
+		{% endcomment %}
+		<div id = "fortune">
+		</div>
+
+	</body>
+
+</html>
