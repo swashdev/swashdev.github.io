@@ -21,13 +21,13 @@ For more information, see <https://unlicense.org>
 		<script type = "text/javascript">
 			function populateFortunes( xml )
 			{
-				var cookieList, cookie, citation, xmlDoc, txt;
+				var cookieList, cookie, xmlDoc, txt;
 				xmlDoc = xml.responseXML;
 
 				cookieList = xmlDoc.getElementsByTagName("cookie");
 				if (cookieList.length > 0)
 				{
-					for (let i = 0; i < cookieLiest.length; i++)
+					for (let i = 0; i < cookieList.length; i++)
 					{
 						cookie = cookieList.item( i );
 						txt = "<hr /><p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
@@ -38,7 +38,7 @@ For more information, see <https://unlicense.org>
 						}
 
 						document.getElementById( "fortune" ).innerHTML += txt;
-					} // for (let i = 0; i < cookieLiest.length; i++)
+					} // for (let i = 0; i < cookieList.length; i++)
 				} // if (cookieList.length > 0)
 			} // function populateFortunes( xml )
 
