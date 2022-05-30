@@ -11,13 +11,8 @@ For more information, see <https://unlicense.org>
 
 <jar>
 
-	<!-- Original quotes from me -->
+	<!-- Personal principles of mine -->
 
-	<cookie>
-		<fortune>
-			Nothing's worth doing that's not worth doing right.
-		</fortune>
-	</cookie>
 	<cookie>
 		<fortune>
 			Prove to yourself that you can.
@@ -43,6 +38,11 @@ For more information, see <https://unlicense.org>
 
 	<!-- General pearls of folk wisdom -->
 
+	<cookie>
+		<fortune>
+			Anything worth doing is worth doing right.
+		</fortune>
+	</cookie>
 	<cookie>
 		<fortune>
 			Don&apos;t put off until tomorrow what you can do
