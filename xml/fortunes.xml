@@ -187,17 +187,18 @@ For more information, see <https://unlicense.org>
 
 	<!-- Quotations -->
 
-    <cookie>
-        <fortune>
-            With great power comes great responsibility.
-        </fortune>
-        <cite>
-            An ancient pearl of folk wisdom, codified as &lt;q&gt;The Peter
-            Parker Principle&lt;/q&gt; following its appearance in various
-            Spider-Man stories, particularly the 2002 feature film
-            by Sam Raimi &lt;i&gt;et al&lt;/i&gt;.
-        </cite>
-    </cookie>
+	<cookie>
+		<fortune>
+			With great power comes great responsibility.
+		</fortune>
+		<cite>
+			An ancient pearl of folk wisdom, codified as
+			&lt;q&gt;The Peter Parker Principle&lt;/q&gt; following
+			its appearance in various Spider-Man stories,
+			particularly the 2002 feature film by Sam Raimi
+			&lt;i&gt;et al&lt;/i&gt;.
+		</cite>
+	</cookie>
 	<cookie>
 		<fortune>
 			Live Free or Die.
@@ -420,7 +421,8 @@ For more information, see <https://unlicense.org>
 	</cookie>
 	<cookie>
 		<fortune>
-			Evil is the force that believes its knowledge is complete.
+			Evil is the force that believes its knowledge is
+			complete.
 		</fortune>
 		<cite>
 			Jordan Peterson
