@@ -4,4 +4,5 @@ description: Philip Pavlick's Personal Landing Page
 collections:
   projects:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:name
+    sort_by: update
