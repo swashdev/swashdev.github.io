@@ -1,2 +1,7 @@
 title: Philip Pavlick
 description: Philip Pavlick's Personal Landing Page
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title

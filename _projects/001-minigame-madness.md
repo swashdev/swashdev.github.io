@@ -12,6 +12,7 @@ systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game wip
 thumbnail: /images/thumbnails/minigame-madness.png
 preview: /images/minigame-madness/screenshot.png
+update: 2022-04-20
 playnow: https://pavlick.net/minigame-madness/
 ---
 

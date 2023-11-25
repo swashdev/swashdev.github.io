@@ -13,6 +13,7 @@ github: SwashRL
 website: https://swash.link/
 language: D
 tags: Roguelike RPG procedural_generation combat wip
+update: 2021-04-13
 systems: Linux
 ---
 

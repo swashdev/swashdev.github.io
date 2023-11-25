@@ -6,32 +6,37 @@ permalink: /projects/
 
 <h1>My Latest Projects</h1>
 
-{% for post in site.posts %}
+{% for project in site.projects %}
 {% assign even = forloop.index0 | modulo: 2 %}
 <div class = "post-preview">
-	<strong><a href = "{{ post.url }}">{{ post.title }}</a></strong>
-	{% if post.tags contains "wip" %}
+	<strong><a href = "{{ project.url }}">{{ project.title }}</a></strong>
+	{% if project.tags contains "wip" %}
 	&ndash; <span style = "color: red;">Work in Progress</span>
 	{% endif %}
-    &ndash; Last updated on {{ post.date | date: "%Y-%m-%d" }}
+    {% if project.date %}
+    &ndash; Release date: {{ project.date | date: "%Y-%m-%d" }}
+    {% endif %}
+    {% if project.update %}
+    &ndash; Last updated on {{ project.update | date: "%Y-%m-%d" }}
+    {% endif %}
 </div>
 
-{% if post.thumbnail %}
+{% if project.thumbnail %}
 
-<a href = "{{ post.url }}"><img src = "{{ post.thumbnail }}" class = "float-{% if even == 0 %}left{% else %}right{% endif %}" /></a>
+<a href = "{{ project.url }}"><img src = "{{ project.thumbnail }}" class = "float-{% if even == 0 %}left{% else %}right{% endif %}" /></a>
 
 {% endif %}
 
-{{ post.excerpt }}
+{{ project.excerpt }}
 
-{% if post.systems %}
+{% if project.systems %}
 <p>
-	Systems: {{ post.systems | join: " &bullet; " }}
+	Systems: {{ project.systems | join: " &bullet; " }}
 </p>
 {% endif %}
 
 <p>
-	Tags: {{ post.tags | join: " &bullet; " | remove: " &bullet; wip" | replace: "_", " " }}
+	Tags: {{ project.tags | join: " &bullet; " | remove: " &bullet; wip" | replace: "_", " " }}
 </p>
 
 {% endfor %}
