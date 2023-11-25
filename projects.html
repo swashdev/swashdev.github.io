@@ -13,8 +13,8 @@ permalink: /projects/
 	{% if project.tags contains "wip" %}
 	&ndash; <span style = "color: red;">Work in Progress</span>
 	{% endif %}
-    {% if project.date %}
-    &ndash; Release date: {{ project.date | date: "%Y-%m-%d" }}
+    {% if project.release %}
+    &ndash; Release date: {{ project.release | date: "%Y-%m-%d" }}
     {% endif %}
     {% if project.update %}
     &ndash; Last updated on {{ project.update | date: "%Y-%m-%d" }}
