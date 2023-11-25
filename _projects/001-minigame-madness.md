@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Minigame Madness
-permalink: /projects/minigame-madness/
 spoof_url: /projects/
 license: Mostly Public Domain
 license_link: https://github.com/swashdev/minigame-madness/blob/master/LICENSE
