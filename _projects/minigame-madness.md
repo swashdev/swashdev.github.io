@@ -8,7 +8,7 @@ version: 0.13
 downloads: https://github.com/swashdev/minigame-madness/releases
 github: minigame-madness/
 systems: HTML5, Linux, Windows, MacOS
-tags: arcade microgame web_game wip
+tags: arcade microgame web_game
 thumbnail: /images/thumbnails/minigame-madness.png
 preview: /images/minigame-madness/screenshot.png
 update: 2022-04-20

@@ -11,7 +11,7 @@ downloads: https://github.com/swashdev/SwashRL/releases
 github: SwashRL
 website: https://swash.link/
 language: D
-tags: Roguelike RPG procedural_generation combat wip
+tags: Roguelike RPG procedural_generation combat
 update: 2021-04-13
 systems: Linux
 ---
