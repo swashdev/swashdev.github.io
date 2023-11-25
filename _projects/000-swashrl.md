@@ -2,6 +2,7 @@
 layout: project
 title: SwashRL
 permalink: /projects/swashrl/
+spoof_url: /projects/
 thumbnail: /images/thumbnails/swashrl.png
 preview: /images/swashrl/screenshot.png
 version: 0.035
