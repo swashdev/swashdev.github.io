@@ -9,7 +9,7 @@ layout: default
 {% endif %}
 
 <p class = "centered">
-	Last updated {{ page.date | date: "%Y-%m-%d" }}
+	Last updated {{ page.update | date: "%Y-%m-%d" }}
 	{% if page.version %} &ndash; version {{ page.version }}{% endif %}
 	{% assign meta_array = "" | split: "," %}
 	{% if page.website %}
