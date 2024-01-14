@@ -325,6 +325,90 @@ For more information, see <https://unlicense.org>
 	</cookie>
 	<cookie>
 		<fortune>
+			At the end of the day, you are you, and you have you
+			to take care of.
+		</fortune>
+		<cite>
+			Markiplier
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			You&apos;ve gotta believe in yourself.  You&apos;ve
+			gotta be good to yourself.  You&apos;ve gotta be good
+			to the person that &lt;em&gt;you&lt;/em&gt; are,
+			&apos;cause you&apos;re all you&apos;ve got.
+		</fortune>
+		<cite>
+			Markiplier
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			These are things I find enchanting and miraculous.
+			I don&apos;t have to be at the Grand Canyon to
+			appreciate the way the world works, I can see that in
+			reflections of light in my bathroom.
+		</fortune>
+		<cite>
+			John D. Carmack
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			I&apos;m going to turn on every damn light in protest
+			of Earth Hour.  Lighting the darkness is fundamental
+			to humanity&apos;s climb.
+		</fortune>
+		<cite>
+			John D. Carmack
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			Speaking the Truth in times of universal deceit is a
+			revolutionary act.
+		</fortune>
+		<cite>
+			George Orwell
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			The great enemy of clear language is insincerity.
+		</fortune>
+		<cite>
+			George Orwell
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			We choose to go to the Moon in this decade and do the
+			other things, not because they are easy, but because
+			they are hard; because that goal will serve to organize
+			and measure the best of our energies and skills,
+			because that challenge is one that we are willing to
+			accept, one we are unwilling to postpone, and one we
+			intend to win, and the others, too.
+		</fortune>
+		<cite>
+			John F. Kennedy
+		</cite>
+	</cookie>
+	<cookie>
+		<fortune>
+			For those we have lost, for those we can yet save.
+		</fortune>
+		<cite>
+			The motto of the Scions of the Seventh Dawn, from
+			&lt;cite&gt;Final Fantasy XIV&lt;cite&gt;
+		</cite>
+	</cookie>
+
+	<!-- Peterson quotations -->
+
+	<cookie>
+		<fortune>
 			Stand up straight with your shoulders back.
 		</fortune>
 		<cite>
@@ -523,64 +607,9 @@ For more information, see <https://unlicense.org>
 			Meaning&lt;/cite&gt;
 		</cite>
 	</cookie>
-	<cookie>
-		<fortune>
-			At the end of the day, you are you, and you have you
-			to take care of.
-		</fortune>
-		<cite>
-			Markiplier
-		</cite>
-	</cookie>
-	<cookie>
-		<fortune>
-			You&apos;ve gotta believe in yourself.  You&apos;ve
-			gotta be good to yourself.  You&apos;ve gotta be good
-			to the person that &lt;em&gt;you&lt;/em&gt; are,
-			&apos;cause you&apos;re all you&apos;ve got.
-		</fortune>
-		<cite>
-			Markiplier
-		</cite>
-	</cookie>
-	<cookie>
-		<fortune>
-			These are things I find enchanting and miraculous.
-			I don&apos;t have to be at the Grand Canyon to
-			appreciate the way the world works, I can see that in
-			reflections of light in my bathroom.
-		</fortune>
-		<cite>
-			John D. Carmack
-		</cite>
-	</cookie>
-	<cookie>
-		<fortune>
-			I&apos;m going to turn on every damn light in protest
-			of Earth Hour.  Lighting the darkness is fundamental
-			to humanity&apos;s climb.
-		</fortune>
-		<cite>
-			John D. Carmack
-		</cite>
-	</cookie>
-	<cookie>
-		<fortune>
-			Speaking the Truth in times of universal deceit is a
-			revolutionary act.
-		</fortune>
-		<cite>
-			George Orwell
-		</cite>
-	</cookie>
-	<cookie>
-		<fortune>
-			The great enemy of clear language is insincerity.
-		</fortune>
-		<cite>
-			George Orwell
-		</cite>
-	</cookie>
+
+	<!-- Tolkein quotations -->
+
 	<cookie>
 		<fortune>
 			All that is gold does not glitter,&lt;br /&gt;
@@ -749,18 +778,5 @@ For more information, see <https://unlicense.org>
 			J.R.R. Tolkein
 		</cite>
 	</cookie>
-	<cookie>
-		<fortune>
-			We choose to go to the Moon in this decade and do the
-			other things, not because they are easy, but because
-			they are hard; because that goal will serve to organize
-			and measure the best of our energies and skills,
-			because that challenge is one that we are willing to
-			accept, one we are unwilling to postpone, and one we
-			intend to win, and the others, too.
-		</fortune>
-		<cite>
-			John F. Kennedy
-		</cite>
-	</cookie>
+
 </jar>
