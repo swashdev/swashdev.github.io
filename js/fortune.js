@@ -8,20 +8,35 @@
 
 function populateFortune( xml )
 {
-	var cookieList, cookie, xmlDoc, txt;
+	var jarList, jar, cookieList, cookie, xmlDoc, html;
 	xmlDoc = xml.responseXML;
 
-	cookieList = xmlDoc.getElementsByTagName("cookie");
-	var i = Math.floor(Math.random() * cookieList.length);
+	/* Select a random jar to get cookies from first. */
+	jarList = xmlDoc.getElementsByTagName("jar");
+	var i = Math.floor(Math.random() * jarList.length);
+	jar = jarList.item(i);
+
+	/* Now select a cookie from that jar. */
+	cookieList = jar.getElementsByTagName("cookie");
+	i = Math.floor(Math.random() * cookieList.length);
 	cookie = cookieList.item(i);
 
-	txt = "<p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
+	/* Extract the fortune from the cookie and wrap it in a paragraph.
+	 * The resulting HTML is stored in `html` to be dumped into the web page
+	 * afterwards.
+	 */
+	html = "<p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
 
+	/* If the cookie contains a citation, extract that as well and wrap it in
+	 * another paragraph.  This paragraph is given the "cite" class so that it
+	 * can be formatted to look like a citation.
+	 */
 	if (cookie.getElementsByTagName( "cite" ).length > 0) {
-		txt = txt + "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
+		html = html + "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
 	}
 
-	document.getElementById("fortune").innerHTML = txt;
+	/* Dump the contents of `html` into the HTML page at the ID "fortune". */
+	document.getElementById("fortune").innerHTML = html;
 }
 
 var xmlhttp = new XMLHttpRequest();
