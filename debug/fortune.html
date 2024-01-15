@@ -27,7 +27,11 @@ For more information, see <https://unlicense.org>
 				paper = document.getElementByID("fortune");
 
 				jarList = xmlDoc.getElementsByTagName("jar");
-				if (jarList.length > 0)
+				if (jarList.length <= 0)
+				{
+					paper.innerHTML = "<p>Sorry, looks like the shelf is empty.</p>";
+				}
+				else
 				{
 					for (let j = 0; j < jarList.length; j++)
 					{
@@ -40,7 +44,11 @@ For more information, see <https://unlicense.org>
 						html = "<h2>" + label + "</h2>";
 						paper.innerHTML += html;
 						cookieList = jar.getElementsByTagName("cookie");
-						if (cookieList.length > 0)
+						if (cookieList.length <= 0)
+						{
+							paper.innerHTML += "<p>Sorry, looks like this jar is empty.</p><hr />";
+						}
+						else
 						{
 							for (let i = 0; i < cookieList.length; i++)
 							{
