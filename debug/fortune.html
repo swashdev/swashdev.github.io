@@ -24,7 +24,7 @@ For more information, see <https://unlicense.org>
 				var jarList, jar, label, cookieList, cookie, xmlDoc, html, paper;
 				xmlDoc = xml.responseXML;
 
-				paper = document.getElementByID("fortune");
+				paper = document.getElementById("fortune");
 
 				jarList = xmlDoc.getElementsByTagName("jar");
 				if (jarList.length <= 0)
