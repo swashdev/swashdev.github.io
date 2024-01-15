@@ -21,25 +21,40 @@ For more information, see <https://unlicense.org>
 		<script type = "text/javascript">
 			function populateFortunes( xml )
 			{
-				var cookieList, cookie, xmlDoc, txt;
+				var jarList, jar, label, cookieList, cookie, xmlDoc, html;
 				xmlDoc = xml.responseXML;
 
-				cookieList = xmlDoc.getElementsByTagName("cookie");
-				if (cookieList.length > 0)
+				jarList = xmlDoc.getElementsByTagName("jar");
+				if (jarList.length > 0)
 				{
-					for (let i = 0; i < cookieList.length; i++)
+					for (let j = 0; j < jarList.length; j++)
 					{
-						cookie = cookieList.item( i );
-						txt = "<hr /><p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p>";
-
-						if (cookie.getElementsByTagName( "cite" ).length > 0)
+						jar = jarList.item( i );
+                        label = jar.getAttributeValue("label");
+						if (label == null)
 						{
-							txt += "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
+							label = "Unlabeled";
 						}
+						html = "<h2>" + label + "</h2>";
+						document.getElementByID( "fortune" ).innerHTML += html;
+						cookieList = jar.getElementsByTagName("cookie");
+						if (cookieList.length > 0)
+						{
+							for (let i = 0; i < cookieList.length; i++)
+							{
+								cookie = cookieList.item( i );
+								html = "<p>" + cookie.getElementsByTagName( "fortune" ).item(0).textContent + "</p><hr />";
 
-						document.getElementById( "fortune" ).innerHTML += txt;
-					} // for (let i = 0; i < cookieList.length; i++)
-				} // if (cookieList.length > 0)
+								if (cookie.getElementsByTagName( "cite" ).length > 0)
+								{
+									html += "<p class = \"cite\">" + cookie.getElementsByTagName( "cite" ).item(0).textContent + "</p>";
+								}
+
+								document.getElementById( "fortune" ).innerHTML += html;
+							} // for (let i = 0; i < cookieList.length; i++)
+						} // if (cookieList.length > 0)
+					} // for (let j = 0; j < jarList.length; j++)
+				} // if (jarList.length > 0)
 			} // function populateFortunes( xml )
 
 			var xmlhttp = new XMLHttpRequest();
