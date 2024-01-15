@@ -9,9 +9,9 @@ guarantees.
 For more information, see <https://unlicense.org>
 -->
 
-<jar>
+<shelf>
 
-	<!-- Personal principles of mine -->
+<jar label="Thoughts">
 
 	<cookie>
 		<fortune>
@@ -41,7 +41,9 @@ For more information, see <https://unlicense.org>
 		</fortune>
 	</cookie>
 
-	<!-- General pearls of folk wisdom -->
+</jar> <!-- Thoughts -->
+
+<jar label="Folk Wisdom">
 
 	<cookie>
 		<fortune>
@@ -177,7 +179,9 @@ For more information, see <https://unlicense.org>
 		</fortune>
 	</cookie>
 
-	<!-- Biblical quotations -->
+</jar> <!-- Folk Wisdom -->
+
+<jar label="Biblical Passages">
 
 	<cookie>
 		<fortune>
@@ -205,7 +209,9 @@ For more information, see <https://unlicense.org>
 		</cite>
 	</cookie>
 
-	<!-- Quotations -->
+</jar> <!-- Biblical Passages -->
+
+<jar label="General Quotes">
 
 	<cookie>
 		<fortune>
@@ -418,7 +424,9 @@ For more information, see <https://unlicense.org>
 		</cite>
 	</cookie>
 
-	<!-- Peterson quotations -->
+</jar> <!-- General Quotes -->
+
+<jar label="Peterson Quotes">
 
 	<cookie>
 		<fortune>
@@ -621,7 +629,9 @@ For more information, see <https://unlicense.org>
 		</cite>
 	</cookie>
 
-	<!-- Tolkein quotations -->
+</jar> <!-- Peterson Quotes -->
+
+<jar label="Tolkein Quotes">
 
 	<cookie>
 		<fortune>
@@ -792,4 +802,6 @@ For more information, see <https://unlicense.org>
 		</cite>
 	</cookie>
 
-</jar>
+</jar> <!-- Tolkein Quotes -->
+
+</shelf>
