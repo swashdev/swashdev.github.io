@@ -4,14 +4,14 @@ title: Minigame Madness
 spoof_url: /projects/
 license: Mostly Public Domain
 license_link: https://github.com/swashdev/minigame-madness/blob/master/LICENSE
-version: 0.13.2-hotfix
+version: 0.13.4
 downloads: https://github.com/swashdev/minigame-madness/releases
 github: minigame-madness/
 systems: HTML5, Linux, Windows, MacOS
 tags: arcade microgame web_game
 thumbnail: /images/thumbnails/minigame-madness.png
 preview: /images/minigame-madness/screenshot.png
-update: 2024-01-14
+update: 2024-03-23
 playnow: https://pavlick.net/minigame-madness/
 ---
 
