@@ -1,0 +1,86 @@
+---
+layout: sandbox
+---
+
+<p>
+	This page is currently testing <code>details</code> tags.
+</p>
+
+<details>
+	<summary>
+		Click here for details.
+	</summary>
+	I lied, there are no details.  Well, I guess it wasn't a <em>lie</em>,
+	per se, so much as deceptive summarization through lack of detail.
+</details>
+
+<details>
+	<summary>
+		This <code>details</code> tag has a <code>p</code>aragraph
+		inside it.
+	</summary>
+	<p>
+		It being a paragraph doesn't necessarily make its contents any
+		more interesting, though.
+	</p>
+</details>
+
+<p>
+	<details>
+		<summary>
+			This <code>details</code> tag is, itself, inside a
+			<code>p</code>aragraph.
+		</summary>
+		That might be moderately more interesting, but I make no
+		promises.
+	</details>
+</p>
+
+<details>
+	<summary>
+		This <code>details</code> tag has a <code>blockquote</code>
+		inside it.
+	</summary>
+	<blockquote>
+		The <code>summary</code> tag being inside the
+		<code>details</code> tag makes sense conceptually in the sense
+		that it <em>sort of</em> follows conventions set by the XML
+		standard, but it's a little confusing visually.
+		<p style="text-align: right; display:block; width: 100%">
+			 &mdash;&nbsp;Franklin D. Roosevelt, probably.
+		</p>
+	</blockquote>
+</details>
+
+<details>
+	<summary>
+		This <code>details</code> tag contains some source code.
+	</summary>
+	<!-- I just copied and pasted this bit from my Minigame Madness page.
+	-->
+<div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># This signal is used when the player has beaten the minigame, especially if</span>
+<span class="c1"># the win state occurs before the timer runs down</span>
+<span class="k">signal</span> <span class="n">won</span>
+<span class="c1"># Similarly, this signal is used when the player has lost the minigame</span>
+<span class="k">signal</span> <span class="n">lost</span>
+
+<span class="c1"># A brief string used to give the player some hint as to what they're doing at</span>
+<span class="c1"># the start of the minigame.</span>
+<span class="k">export</span><span class="p">(</span><span class="kt">String</span><span class="p">)</span> <span class="k">var</span> <span class="n">_instruction</span> <span class="k">setget</span> <span class="p">,</span><span class="n">get_instruction</span>
+
+<span class="c1"># Whether the player wins by default when the timer expires.  If not, they</span>
+<span class="c1"># lose by default.</span>
+<span class="k">export</span><span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="k">var</span> <span class="n">_win_by_default</span> <span class="o">=</span> <span class="bp">false</span>
+
+
+<span class="c1"># This function is used to force the minigame to decide whether to throw the</span>
+<span class="c1"># `won` signal or the `lost` signal.  Mostly used if the minigame has not</span>
+<span class="c1"># given any such signal by the time the timer runs out.</span>
+<span class="k">func</span> <span class="nf">decide</span><span class="p">():</span>
+	<span class="n">stop</span><span class="p">()</span>
+	<span class="k">if</span> <span class="n">_win_by_default</span><span class="p">:</span>
+		<span class="n">emit_signal</span><span class="p">(</span> <span class="s2">"won"</span> <span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">emit_signal</span><span class="p">(</span> <span class="s2">"lost"</span> <span class="p">)</span>
+</code></pre></div></div>
+</details>

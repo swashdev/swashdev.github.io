@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {% elsif site.description %}{{ site.description }} - {% endif %}Sandbox{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
+
+		{% include backend.html %}
+
+	</head>
+
+	<body>
+
+		<div style="align: center">
+			<p class="important">
+				<blink>NOTE:</blink> This is a sandbox page
+				used for testing purposes.  Everything is
+				subject to change and nothing <strong>including
+				legal notices</strong> should be taken as
+				accurate or binding.
+			</p>
+			<p>
+				<a href="{% if page.spoof_url %}{{ page.spoof_url }}{% else %}/{% endif %}">Click here to go back</a>.
+			</p>
+		</div>
+
+		{% include header.html %}
+
+		<section>
+
+			{{ content }}
+
+			<p><a href = "#top">Back to top</a>.</p>
+
+			{% include footer.html %}
+
+		</section>
+
+	</body>
+</html>

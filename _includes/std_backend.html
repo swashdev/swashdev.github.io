@@ -1,0 +1,7 @@
+<!-- Standard page backend, per default layout. -->
+<head>
+	<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
+
+	{% include backend.html %}
+</head>
+<!-- End standard page backend. -->
