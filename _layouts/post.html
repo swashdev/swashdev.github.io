@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- Blog post page content -->
 <h1>{{ page.title }}</h1>
 
 <p>{{ page.date | date_to_string }} - {{ page.author | default: site.github.owner_name }}</p>
@@ -11,3 +12,4 @@ layout: default
 {% if page.tags %}
 	<p><small>tags: <em>{{ page.tags | join: "</em>, <em>" }}</em></small></p>
 {% endif %}
+<!-- End blog post page content -->

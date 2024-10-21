@@ -1,44 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-	<head>
-		{% comment %} (page title) | (site title) {% endcomment %}
-		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
-
-		<link rel = "stylesheet" type = "text/css" href = "/css/style.css" />
-		<link rel = "stylesheet" type = "text/css" href = "/css/syntax.css" />
-
-		<script type = "text/javascript" src = "/js/fortune.js"></script>
-	</head>
+	{% include std_backend.html %}
 
 	<body>
 
-		<h1 class = "title" id = "top">{{ site.title }}</h1>
-
-                {% include header.html %}
+		{% include header.html %}
 
 		<section>
-		{{ content }}
 
-		<p><a href = "#top">Back to top</a>.</p>
+			{{ content }}
 
-		{% comment %} This is the element which will contain a random
-		fortune courtesy of fortune.js.  What's in there now is a
-		placeholder from my old website. {% endcomment %}
-		<div id = "fortune">
-                        <p>
-			Nothing's worth doing that's not worth doing right.
-                        </p>
-		</div>
+			<p><a href = "#top">Back to top</a>.</p>
 
-		<p style = "text-align: center;">
-			<small>This website is maintained by Philip Pavlick.
-			<br />
-			All content on this website is available in the
-			public domain unless otherwise specified.
-			<br />
-			Hosted by GitHub Pages</small>
-		</p>
+			{% include footer.html %}
+
 		</section>
 
 	</body>
