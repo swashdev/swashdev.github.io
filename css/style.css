@@ -135,19 +135,7 @@ details
 {
     display: block;
     width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    padding: 0.5em;
-}
-details summary
-{
-    display: block;
-    width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    margin: 0 0 0.5em 0;
+    background-color: #aaa;
 }
 
 /* a section at the bottom for displaying fortunes. */
