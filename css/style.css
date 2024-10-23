@@ -128,6 +128,19 @@ section
 	content: "Footnotes:";
 }
 
+/* collapsible sections have a box drawn around them to show the extent of the
+ * collapsible.
+ */
+details
+{
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 1em 0.5em;
+}
+
 /* a section at the bottom for displaying fortunes. */
 #fortune
 {
