@@ -135,7 +135,8 @@ details
 {
     display: block;
     width: 100%;
-    background-color: #aaa;
+    background-color: #ddd;
+    padding: 0.5em;
 }
 
 /* a section at the bottom for displaying fortunes. */
