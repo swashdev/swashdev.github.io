@@ -141,6 +141,7 @@ details
 details summary
 {
     padding: 0 0 0.5em 0;
+    cursor: pointer;
 }
 
 /* a section at the bottom for displaying fortunes. */
