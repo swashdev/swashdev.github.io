@@ -148,6 +148,12 @@ details summary
 	cursor: pointer;
 }
 
+/* a way to mark certain sections as "important." */
+.important:before
+{
+	content: '\261E';
+}
+
 /* a section at the bottom for displaying fortunes. */
 #fortune
 {
