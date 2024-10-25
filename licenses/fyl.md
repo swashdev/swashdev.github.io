@@ -30,15 +30,17 @@ there is no warranty.  In exchange, if you ever find yourself thinking
 take a deep breath, and say "Yes I can."  Then prove you can.  Don't
 prove it to me; don't prove it to your friends and family; don't prove
 it to your boss; prove it to yourself.  This software is already free;
-now free yourself.  
+now free yourself.<br />
 &nbsp;&nbsp;- Philip Pavlick
 </p>
 <p>
 For more information about the rationale behind this licensing, see
 https://pavlick.net/fyl/
 </p>
-([Download text file](/files/fyl.txt))
+(<a href="/files/fyl.txt">Download text file</a>)
 </details>
+
+<br />
 
 <details>
 <summary>The Uroboros License, aka FYL 2.0</summary>
@@ -52,8 +54,10 @@ more out of each day to remind yourself that you are valuable and your life
 is worth living, and treating yourself like someone worth taking care of.
 This software is already free; now free yourself.
 </p>
-([Download text file](/files/uroboros-license.txt))
+(<a href="/files/uroboros-license.txt">Download text file</a>)
 </details>
+
+<br />
 
 <details>
 <summary>The Free Yourself License, Revision 2.1</summary>
@@ -71,7 +75,7 @@ This software is already free; now free yourself.
 <p>
 For more information, refer to &lt;https://www.pavlick.net/fyl&gt;
 </p>
-([Download text file](/files/fyl-2.1.txt))
+(<a href="/files/fyl-2.1.txt">Download text file</a>)
 </details>
 
 Explanation
