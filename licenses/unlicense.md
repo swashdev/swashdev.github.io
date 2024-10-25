@@ -22,12 +22,14 @@ site had gone offline.  I believe this was due to a temporary lapse on the
 owner's part, and it was reconciled quickly enough, but nevertheless it
 spurred me to create this backup just in case.
 
-Needless to say, I am not affiliated with the creators of the Unlicense,
-and nor am I a lawyer.  This page is not presenting legal advice.
+<span class = "important">Needless to say, I am not affiliated with the
+creators of the Unlicense, and nor am I a lawyer.  This page is not presenting
+legal advice.</span>
 
-It should be noted that the Unlicense website was placed under the
-[Creative Commons Zero or "CC0"][cc0] license by the author, and that
-this was made known at the bottom of the [original website][Unlicense].
+<span class = "important">It should be noted that the Unlicense website was
+placed under the <a href = "/CC0/">Creative Commons Zero or <q>CC0</q></a>
+license by the author, and that this was made known at the bottom of the
+<a href = "https://unlicense.org/">original website</a>.</span>
 
 You can download a plaintext copy of the Unlicense [here][textfile].
 

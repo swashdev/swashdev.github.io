@@ -16,6 +16,12 @@ freedom to any recipient of the software to change and re-license the software
 as desired, with a little [careware][careware] message baked in for good
 measure.
 
+<span class = "important">NOTE: I am not a lawyer, and I am not providing legal
+advice.  I am not advising you to use the "Free Yourself" Licenses, or any
+other license, for your software or other works.  <strong>Should you choose to
+use any of the "Free Yourself" Licenses, you do so at your own
+risk.</strong></span>
+
 At time of writing, there have been three versions of the Free Yourself
 License used by me in public repositories.  For completeness's sake, all three
 are included below.

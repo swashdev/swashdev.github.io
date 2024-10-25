@@ -19,11 +19,13 @@ their website rather than including the full text of their legal
 documents with the licensed materials, so backups like this might be
 necessary for some people.
 
-Needless to say, I am not affiliated with Creative Commons, and nor am
-I a lawyer.  This page is not presenting legal advice.
+<span class = "important">Needless to say, I am not affiliated with Creative
+Commons, and nor am I a lawyer.  This page is not presenting legal
+advice.</span>
 
-It should be noted that the text of the CC0 is, itself, [licensed under
-the CC0][ccc].  (See the paragraph in section 5 marked _Licensing_)
+<span class = "important">It should be noted that the text of the CC0 is,
+itself, <a href = "https://creativecommons.org/terms/">licensed under the
+CC0</a>.  (See the paragraph in section 5 marked <i>Licensing</i>)</span>
 
 You may download a plaintext copy of the CC0 [here][textfile].
 
