@@ -40,8 +40,6 @@ https://pavlick.net/fyl/
 (<a href="/files/fyl.txt">Download text file</a>)
 </details>
 
-<br />
-
 <details>
 <summary>The Uroboros License, aka FYL 2.0</summary>
 <p>
@@ -56,8 +54,6 @@ This software is already free; now free yourself.
 </p>
 (<a href="/files/uroboros-license.txt">Download text file</a>)
 </details>
-
-<br />
 
 <details>
 <summary>The Free Yourself License, Revision 2.1</summary>
