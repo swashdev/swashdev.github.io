@@ -37,6 +37,7 @@ now free yourself.
 For more information about the rationale behind this licensing, see
 https://pavlick.net/fyl/
 </p>
+([Download text file](/files/fyl.txt))
 </details>
 
 <details>
@@ -51,6 +52,7 @@ more out of each day to remind yourself that you are valuable and your life
 is worth living, and treating yourself like someone worth taking care of.
 This software is already free; now free yourself.
 </p>
+([Download text file](/files/uroboros-license.txt))
 </details>
 
 <details>
@@ -69,6 +71,7 @@ This software is already free; now free yourself.
 <p>
 For more information, refer to &lt;https://www.pavlick.net/fyl&gt;
 </p>
+([Download text file](/files/fyl-2.1.txt))
 </details>
 
 Explanation
