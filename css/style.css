@@ -133,19 +133,19 @@ section
  */
 details
 {
-    display: block;
-    width: 100%;
-    background-color: #eee;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0.5em;
+	display: block;
+	width: 100%;
+	background-color: #eee;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0.5em;
 }
 details summary
 {
-    padding: 0 0 0.5em 0;
-    cursor: pointer;
+	padding: 0 0 0.5em 0;
+	cursor: pointer;
 }
 
 /* a section at the bottom for displaying fortunes. */
