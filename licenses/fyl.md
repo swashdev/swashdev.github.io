@@ -7,27 +7,69 @@ permalink: /fyl/
 The "Free Yourself" License
 ===========================
 
-The "Free Yourself" License is a custom software license inspired by FreeBSD
+_Updated 2024-10-24_
+
+The "Free Yourself" Licenses are custom software licenses inspired by FreeBSD
 developer [Poul-Henning Kamp][phk]'s "Beer-Ware License."  It is an
 essentially [public-domain-equivalent license][pde license] granting full
 freedom to any recipient of the software to change and re-license the software
 as desired, with a little [careware][careware] message baked in for good
-measure.  The full text of the license follows, after which you can find a
-brief essay about software licensing and an explanation of the careware
-message.
+measure.
 
-> &lt;email@sample.com&gt; wrote this file.  Feel free to do whatever
-> you want with it so long as you don't hold me liable for any damages;
-> there is no warranty.  In exchange, if you ever find yourself thinking
-> "I can't do this," or "I'll never be that good," I want you to stop,
-> take a deep breath, and say "Yes I can."  Then prove you can.  Don't
-> prove it to me; don't prove it to your friends and family; don't prove
-> it to your boss; prove it to yourself.  This software is already free;
-> now free yourself.  
-> &nbsp;&nbsp;- Philip Pavlick
-> 
-> For more information about the rationale behind this licensing, see
-> https://pavlick.net/fyl/
+At time of writing, there have been three versions of the Free Yourself
+License used by me in public repositories.  For completeness's sake, all three
+are included below.
+
+<details>
+<summary>The "Free Yourself License</summary>
+<p>
+&lt;email@sample.com&gt; wrote this file.  Feel free to do whatever
+you want with it so long as you don't hold me liable for any damages;
+there is no warranty.  In exchange, if you ever find yourself thinking
+"I can't do this," or "I'll never be that good," I want you to stop,
+take a deep breath, and say "Yes I can."  Then prove you can.  Don't
+prove it to me; don't prove it to your friends and family; don't prove
+it to your boss; prove it to yourself.  This software is already free;
+now free yourself.  
+&nbsp;&nbsp;- Philip Pavlick
+</p>
+<p>
+For more information about the rationale behind this licensing, see
+https://pavlick.net/fyl/
+</p>
+</details>
+
+<details>
+<summary>The Uroboros License, aka FYL 2.0</summary>
+<p>
+This is public domain software.  Feel free to do whatever you want with it
+so long as you don't hold me liable for any damages - there is no warranty.
+</p>
+<p>
+If you want to pay me back for it, you can do so by taking ten minutes or
+more out of each day to remind yourself that you are valuable and your life
+is worth living, and treating yourself like someone worth taking care of.
+This software is already free; now free yourself.
+</p>
+</details>
+
+<details>
+<summary>The Free Yourself License, Revision 2.1</summary>
+<p>
+This is public domain software.  Feel free to do whatever you want with it
+so long as you don't hold me liable for any damages - there is no warranty.
+</p>
+<p>
+In exchange, if you ever find yourself thinking "I can't do this," or "I'll
+never be that good," I want you to stop, take a deep breath, and say "Yes I
+can."  Then prove you can.  Don't prove it to me; don't prove it to your
+friends and family; don't prove it to your boss; prove it to yourself.
+This software is already free; now free yourself.
+</p>
+<p>
+For more information, refer to &lt;https://www.pavlick.net/fyl&gt;
+</p>
+</details>
 
 Explanation
 -----------
@@ -37,30 +79,32 @@ bear in mind that the software is released "as-is" and without
 warranty and you can modify, share, and commercially exploit the
 software or do anything else with it as you so choose.
 
-There are a few reasons why I drafted such a permissive and bare-bones
-license.  Part of it is simply that a lot of popular licenses clutter
-things up with legaleze that I frankly find unnecessary.  We don't
-need lawyers and thinktanks to interpret what is or is not a
-"[permissive][permissive license]" license; we just need to unambiguously
-tell people that it's okay to copy and modify stuff and be done with it.
-This is a throwback to a simpler time, when you could just share stuff
-and nobody had to worry about ending up in court over it, and that
-appeals to me.  I'm a practical guy and I don't feel the need to
-complicate everything.
+All but the first draft of the "Free Yourself" License explicity place the
+covered source code into the public domain, but the effect is largely the
+same either way.  I'm not interested in making people jump through hoops
+just so they can use my source code, and I shouldn't have to fill five
+pages with legaleze just so people can use something I've publicly posted
+anyway.
 
-In a perfect world, I would just commit my code to the
-[public domain][public domain] and be done with it, but in practice it turns
-out that some jurisdictions are kind of iffy about the public domain, and like
-to prosecute people for distributing public domain works anyway,
-because even though the author has waived all copyright and other
-interests in the software they still have to explicitly grant
-permission to use it.  Your tax dollars at work, ladies and gentlemen.
+The problem is that a lot of jurisdictions, even in the United States, get
+really cagey about copyrights, owing to how invasive, manipulative, and
+outright evil modern intellectual property law is now.  A lot of courts
+think that something presented on a public forum with the understanding
+that other people would be able to see, copy, and use it still needs some
+kind of grant of permission for you to actually exercise your God-given
+rights as a citizen of the Information Age.
 
 So I wrote the "Free Yourself" License as an explict grant of that
 permission, kind of like [the Unlicense][Unlicense]
 but shorter, just how I like it.
+The reason all of the drafts after the first one include an explicit public
+domain dedication is that I, frankly, got tired of playing the courts' word
+games.  Piracy is a market inevitability, and in practice only the corpos
+who are rich enough to be able to afford lawyers and extremely delusional
+people really seem to care what the law says about copyrights anyway, so my
+permission notice should be more than sufficient.
 
-Okay, so that's the first sentence of the license out of the way, what
+Okay, so that's the first few sentences of the license out of the way.  What
 about the rest of it?
 
 Careware
@@ -76,6 +120,17 @@ the "careware clause," which is all of this:
 > prove it to your friends and family; don't prove it to your boss;
 > prove it to yourself.  This software is already free; now free
 > yourself.
+
+<details>
+<summary>The Uroboros license changed it to this, which I still believe in,
+but I decided to go back to the original afterwards.</summary>
+<p>
+If you want to pay me back for it, you can do so by taking ten minutes or
+more out of each day to remind yourself that you are valuable and your life
+is worth living, and treating yourself like someone worth taking care of.
+This software is already free; now free yourself.
+</p>
+</details>
 
 There's a reason I attached this to my software license.  On July 9th
 of 2018 I got hit with a _major_ anxiety attack.  I thought I
