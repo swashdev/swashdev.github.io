@@ -21,7 +21,7 @@ License used by me in public repositories.  For completeness's sake, all three
 are included below.
 
 <details>
-<summary>The "Free Yourself License</summary>
+<summary>The "Free Yourself" License</summary>
 <p>
 &lt;email@sample.com&gt; wrote this file.  Feel free to do whatever
 you want with it so long as you don't hold me liable for any damages;
