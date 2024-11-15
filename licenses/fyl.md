@@ -7,7 +7,7 @@ permalink: /fyl/
 The "Free Yourself" License
 ===========================
 
-_Updated 2024-10-24_
+_Updated 2024-11-15 03:54 CST_
 
 The "Free Yourself" Licenses are custom software licenses inspired by FreeBSD
 developer [Poul-Henning Kamp][phk]'s "Beer-Ware License."  It is an
@@ -24,7 +24,9 @@ risk.</strong></span>
 
 At time of writing, there have been three versions of the Free Yourself
 License used by me in public repositories.  For completeness's sake, all three
-are included below.
+are included below.  For the record, if you use any software that was released
+by me under one of the licenses listed below, you have my permission to upgrade
+(or downgrade) according to your interest.
 
 <details>
 <summary>The "Free Yourself" License</summary>
@@ -102,10 +104,10 @@ think that something presented on a public forum with the understanding
 that other people would be able to see, copy, and use it still needs some
 kind of grant of permission for you to actually exercise your God-given
 rights as a citizen of the Information Age.
-
 So I wrote the "Free Yourself" License as an explict grant of that
 permission, kind of like [the Unlicense][Unlicense]
 but shorter, just how I like it.
+
 The reason all of the drafts after the first one include an explicit public
 domain dedication is that I, frankly, got tired of playing the courts' word
 games.  Piracy is a market inevitability, and in practice only the corpos
